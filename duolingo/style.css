@@ -65,3 +65,13 @@ body {
     border: solid 1px rgb(213, 213, 213) ;
     box-shadow: rgb(213, 213, 213) 0px 4px 0px 0px;
 }
+.anc:hover {
+    cursor: pointer;
+    background-color: #64e402;
+    transition: transform 0.2s ease-in-out;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(232, 232, 232);
+    transition: transform 0.2s ease-in-out;
+}
