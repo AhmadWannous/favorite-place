@@ -1,0 +1,67 @@
+body {
+    font-family: "Oswald", sans-serif;
+}
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom: 2px solid transparent;
+    background: rgb(255, 255, 255, 1);
+    margin: 0 100px;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(175, 175, 175, 1);
+}
+.flex {
+    display: flex;
+    text-align: center;
+}
+.container {
+    justify-content: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.header-contants {
+    align-items: center;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: end;
+    padding: 48px 0;
+    margin: 0 100px;
+}
+.cast {
+    width: 600px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.text {
+    font-size: 32px;
+    color: #4B4B4B;
+}
+.anc {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #58cc02;
+    color: white;
+    border: solid 1px #58cc02 ;
+    border-radius: 7px;
+    box-shadow: rgb(30, 162, 9) 0px 4px 0px 0px;
+}
+.btn {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    background-color: white;
+    color: rgb(33, 192, 245);
+    border-radius: 7px;
+    border: solid 1px rgb(213, 213, 213) ;
+    box-shadow: rgb(213, 213, 213) 0px 4px 0px 0px;
+}
